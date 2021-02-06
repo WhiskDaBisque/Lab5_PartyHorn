@@ -1,10 +1,10 @@
-name: GIF Comment
+name: Gif Comment
 on:
   issues:
     types: [opened]
 
 jobs:
-  comment: 
+  comment:
     if: github.event_name == 'issues'
     runs-on: ubuntu-latest
     steps:
