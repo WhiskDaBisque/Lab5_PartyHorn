@@ -1,7 +1,6 @@
-name: GIFS 4 LIFE
+name: GIF Comment
 on:
   issues:
-  push:
     types: [opened]
 
 jobs:
